@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- FontAwesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <!-- logo -->
+        <a href="index.html" class="logo">COSTY</a>
+        <!-- navbar -->
+        <nav class="navbar">
+          <a href="#" class="nav-link">Woman</a>
+          <a href="#" class="nav-link">Man</a>
+          <a href="#" class="nav-link">Kids</a>
+          <a href="#" class="nav-link">Accessories</a>
+        </nav>
+        <!-- cart-icon -->
+        <a href="cart.html" id="cart-icon">
+          <i class="fa-solid fa-bag-shopping" data-quantity="0"></i>
+        </a>
+      </div>
+    </header>
+    <!-- Cart -->
+    <section class="cart-container container">
+      <a href="index.html" class="back-homepage">
+        <i class="fa-solid fa-chevron-left"></i>
+        <span>Back To Home</span></a
+      >
+      <h2 class="shopping-cart">Shopping Cart</h2>
+      <div class="cart-box">
+        <div class="card-data">
+          <div id="cartItems"></div>
+        </div>
+        <div class="cart-t">
+          <div id="cartTotal">Total: $1194.80</div>
+          <a href="#" class="checkout-btn">CHECKOUT</a>
+        </div>
+      </div>
+    </section>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
